@@ -1,0 +1,35 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #1f1f1f;
+}
+
+#board{
+    width: 90vmin;
+    height: 90vmin;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+}
+
+#score {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.snake{
+    background-color: green;
+    border: .25vmin solid black;
+}
+
+.fruit{
+    background-color: red;
+    border: .25vmin solid black;
+}
